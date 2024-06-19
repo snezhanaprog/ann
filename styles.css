@@ -1,0 +1,135 @@
+.example {
+    position:relative;
+
+        width:70vw;
+    overflow:hidden;
+
+        margin:20px auto;
+        padding:20px;
+        border-radius:3px;
+        -moz-border-radius:3px;
+        -webkit-border-radius:3px;
+    }
+    
+    /* Стили галереи */
+    #gallery {
+    overflow:hidden;
+    position:relative;
+    width:70vw;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    }
+    #sets {
+    display:flex;
+    flex-direction: row;
+    list-style:none outside none;
+    margin:10px auto;
+    overflow:hidden;
+    justify-content: space-between;
+    width: 40vw;
+    margin-top:5vh;
+    margin-bottom: 5vh;
+    font-size: 18pt;
+    
+    }
+    #gallery ul #sets li {
+        margin-right:10px;
+    }
+    #gallery ul #sets li a {
+    background-color:#367;
+    color:#fff;
+    cursor:pointer;
+    display:block;
+        font-size:14px;
+    font-weight:normal;
+        height:26px;
+        line-height:26px;
+        padding:10px 20px;
+    text-decoration:none;
+    
+        -moz-border-radius:5px;-webkit-border-radius:5px;-khtml-border-radius:5px;border-radius:5px 5px 5px5px;
+    background: -moz-linear-gradient(#363636, #010101); /* FF 3.6+ */  
+    background: -ms-linear-gradient(#363636, #010101); /* IE10 */  
+    background: -webkit-gradient(linear, lefttop, leftbottom, color-stop(0%, #363636), color-stop(100%, #010101)); /* Safari 4+, Chrome 2+ */  
+    background: -webkit-linear-gradient(#363636, #010101); /* Safari 5.1+, Chrome 10+ */  
+    background: -o-linear-gradient(#363636, #010101); /* Opera 11.10 */  
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#363636', endColorstr='#010101'); /* IE6 & IE7 */  
+        -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#363636', endColorstr='#010101'); /* IE8+ */  
+    background: linear-gradient(#363636, #010101); /* thestandard */ 
+    }
+    #gallery ul #sets li a:hover{
+    background-color:#ff6a11;
+    
+    background: -moz-linear-gradient(#ff9317, #ff6a11); /* FF 3.6+ */  
+    background: -ms-linear-gradient(#ff9317, #ff6a11); /* IE10 */  
+    background: -webkit-gradient(linear, lefttop, leftbottom, color-stop(0%, #ff9317), color-stop(100%, #ff6a11)); /* Safari 4+, Chrome 2+ */  
+    background: -webkit-linear-gradient(#ff9317, #ff6a11); /* Safari 5.1+, Chrome 10+ */  
+    background: -o-linear-gradient(#ff9317, #ff6a11); /* Opera 11.10 */  
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9317', endColorstr='#ff6a11'); /* IE6 & IE7 */  
+        -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9317', endColorstr='#ff6a11'); /* IE8+ */  
+    background: linear-gradient(#ff9317, #ff6a11); /* thestandard */ 
+    }
+    #gallery #loading {
+    text-align:center;
+    }
+    #gallery #photo {
+    display:block;
+        margin:10px auto;
+        width: 35vw;
+        height: 80vh;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    #thumbs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        list-style-type: none;
+
+        li {
+            img {
+                height: 100px;
+                border-radius: 20px;
+            }
+        }
+    }
+    #gallery ul #thumbs {
+    bottom:-25px;
+        left:250px;
+    list-style:none outside none;
+        margin:0 auto;
+        opacity:0.5;
+    overflow:hidden;
+    position:absolute;
+        width:300px;
+        -moz-transition: bottom 0.5s ease-in-out;
+        -ms-transition: bottom 0.5s ease-in-out;
+        -o-transition: bottom 0.5s ease-in-out;
+        -webkit-transition: bottom 0.5s ease-in-out;
+    transition: bottom 0.5s ease-in-out;
+    }
+    #gallery ul #thumbs:hover {
+        opacity:1;
+        bottom:10px;
+    }
+    #gallery ul #thumbs li {
+        border:1px solid #888;
+    cursor:pointer;
+    float:left;
+        height:38px;
+        width:58px;
+    }
+    #gallery ul #thumbs li:hover {
+        border:1px solid #fff;
+    }
+    #gallery ul #thumbs li img {
+        width:60vw;
+        height: 70vh;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    

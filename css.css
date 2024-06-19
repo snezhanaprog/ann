@@ -1,0 +1,318 @@
+.container, a {
+  margin-left: -10px;
+  margin-right: -8px;
+  margin-top: -8px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bloc_1 {
+  background: url('./images/image\ 10glav\ \(1\).png');
+}
+.bloc_1_1 {
+  display: flex;
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 10px;
+}
+.naz_0 {
+  font-size: 32px;
+}
+.nav {
+  margin-top: 40px;
+  padding-right: 0px;
+  margin-left: 805px;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: right;
+}
+.bloc_1_2 {
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+.naz_1_1 {
+  font-size: 83px;
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: -10px;
+}
+.naz_1 {
+  font-size: 240px;
+  margin-top: -120px;
+  margin-bottom: -120px;
+  color: #ffc6c6;
+  text-align: center;
+  letter-spacing: -33px;
+}
+.naz_1_2 {
+  font-size: 83px;
+  padding-left: 130px;
+  padding-right: 130px;
+  text-align: right;
+  padding-bottom: -10px;
+}
+
+.bloc_2 {
+  background-color: #161616;
+  margin-top: -16px;
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 3px;
+  margin-bottom: 150px;
+}
+.naz_2 {
+  font-size: 70px;
+  margin-top: 150px;
+  line-height: 70px;
+}
+.naz_2__1 {
+  font-size: 70px;
+  color: #ffc6c6;
+}
+.naz_2_1 {
+  font-size: 20px;
+  line-height: 27px;
+  margin-top: -8px;
+  padding-bottom: 150px;
+}
+
+.bloc_3 {
+  background: url('./images/image\ 11\ \(1\).png');
+  margin-top: -150px;
+  padding-left: 130px;
+  padding-right: 130px;
+  color: black;
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+.naz_3 {
+  font-size: 48px;
+}
+.bloc_3_1 {
+  display: flex;
+  margin-top: 110px;
+  padding-bottom: 100px;
+  font-size: 30px;
+  line-height: 15px;
+}
+.bloc_3_2 {
+  text-align: right;
+  margin-left: 176px;
+}
+.verticalLine {
+  margin-left: 40px;
+  margin-right: 40px;
+  border-left: solid #000000;
+}
+
+.bloc_4 {
+  background-color: #ffc6c6;
+  margin-top: -50px;
+  color: #000000;
+  font-size: 48px;
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 40px;
+  padding-bottom: 120px;
+}
+.bloc_4_1 {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bloc_5 {
+  font-size: 48px;
+  background-color: #161616;
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+.bloc_5_1 {
+  margin-top: 90px;
+}
+
+.bloc_6 {
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 90px;
+  padding-bottom: 100px;
+  font-size: 48px;
+  background-color:#ffc6c6;
+}
+
+.bloc_7 {
+  background-color: #161616;
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+.naz_7 {
+  font-size: 64px;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.bloc_8 {
+  padding-left: 130px;
+  padding-right: 130px;
+  background-color:#ffc6c6;
+  padding-top: 90px;
+  padding-bottom: 100px;
+  font-size: 40px;
+}
+
+.bloc_10 {
+  background-color: #2C2C2C;
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+.bloc_10_1 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.naz_10 {
+  font-size: 32px;
+}
+.naz_10_1 {
+  font-size: 24px;
+}
+.bloc__10 {
+  display: flex;
+}
+.bloc_10__2 {
+  margin-left: 40px;
+}
+.naz_10_2 {
+  color: #ffc6c6;
+  font-size: 64px;
+  text-align: center;
+}
+.nav_1 {
+  padding-left: 400px;
+  padding-right: 400px;
+  margin-top: -50px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.bloc_11 {
+  background-color: #161616;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.naz_11 {
+  color: #ffc6c6;
+  font-size: 64px;
+  text-align: center;
+}
+.bloc_11_1 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 32px;
+  padding-left: 450px;
+  padding-right: 450px;
+}
+.bloc_11__1 {
+  display: flex;
+}
+
+
+/* Поля ввода полной ширины */
+  input[type=text], input[type=telephon] {
+  width: 50%;
+  padding: 15px;
+  margin: 0 0 15px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+input[type=text], input[type=datetime] {
+  width: 50%;
+  padding: 15px;
+  margin: 0 0 15px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+
+/* Установите стиль для всех кнопок */
+button {
+  background-color: white;
+  color: #2C2C2C;
+  padding: 14px 20px;
+  margin: 8px 170px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+/* Поплавок отмена и кнопки регистрации и добавить равную ширину */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 20%;
+}
+
+/* Очистить поплавки */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.otz {
+  display: flex;
+}
+.containir {   
+  width: 25%;
+  background-color: white;
+  border-radius: 10px; /* скругление углов блока */
+  padding: 16px; /* внутренние поля */
+  margin: 10px auto; /* внешние отступы */
+  color:#2C2C2C;
+}
+.img_1 {
+  float: left; /* обтекание слева */
+  margin-right: 20px; /* пространство между аватаркой и абзацем */
+  border-radius: 50%; /* скругляет аватарку */
+  width: 90px;
+}
+.img_2 {
+  width: 180px;
+}
+
+.containir span {
+  font-size: 24px;
+  margin-right: 15px;
+  padding-top: -25px;
+}
+.containir p {
+  font-size: 24px;
+  padding-top: 0px;
+}
+
+
+.left, .right {
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  margin-top: 150px;
+}
+.left {
+  border-top: 5px solid #2C2C2C;
+  border-left: 5px solid #2C2C2C;
+  transform: rotate(-45deg);
+}
+.right {
+  border-top: 5px solid #2C2C2C;
+  border-right: 5px solid #2C2C2C;
+  transform: rotate(45deg);
+}
